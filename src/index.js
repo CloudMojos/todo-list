@@ -1,10 +1,10 @@
-import './styles.css';
-import nav from './nav';
+import './styles.css'
+import nav from './nav'
 
 
-const content = document.querySelector('#content');
+const content = document.querySelector('#content')
 
-content.appendChild(nav);
+content.appendChild(nav)
 
 
 function changeTabHandler() {
@@ -16,12 +16,12 @@ function changeTabHandler() {
                 // remove the classlist from the others, remove the element that is not it
                 tabs.forEach(tab => {
                     if (tab.classList.contains('active')) {
-                        tab.classList.remove('active');
+                        tab.classList.remove('active')
                     }
                 })
             }
         })
     })
-};
+}
 
-changeTabHandler();
+changeTabHandler()

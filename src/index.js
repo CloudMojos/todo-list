@@ -1,11 +1,9 @@
 import './styles.css'
-import nav from './nav'
-
+import nav from './navbar'
 
 const content = document.querySelector('#content')
 
 content.appendChild(nav)
-
 
 function changeTabHandler() {
     let tabs = document.querySelectorAll('.links > *');
@@ -19,9 +17,11 @@ function changeTabHandler() {
                         tab.classList.remove('active')
                     }
                 })
+                tab.classList.add('active');
             }
         })
     })
 }
 
 changeTabHandler()
+

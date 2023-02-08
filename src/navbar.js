@@ -1,8 +1,8 @@
-function createNav() {
+function createNavBar() {
     const header = document.createElement('header');
    
     const h1 = document.createElement('h1');
-    h1.textContent = '🍗 Wingtopia 🍺';
+    h1.textContent = '📒 TodoTD 🏹';
     h1.className = 'logo';
 
     const ul = document.createElement('ul');
@@ -33,5 +33,5 @@ function createNav() {
     return header;
 }
 
-const nav = createNav();
+const nav = createNavBar();
 export default nav;

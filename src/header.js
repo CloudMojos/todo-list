@@ -1,4 +1,4 @@
-function createNavBar() {
+function createHeader() {
     const header = document.createElement('header');
    
     const h1 = document.createElement('h1');
@@ -33,5 +33,5 @@ function createNavBar() {
     return header;
 }
 
-const nav = createNavBar();
+const nav = createHeader();
 export default nav;

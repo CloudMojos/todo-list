@@ -1,9 +1,11 @@
 import './styles.css'
-import nav from './navbar'
+import header from './header'
+import body from './body'
 
 const content = document.querySelector('#content')
 
-content.appendChild(nav)
+content.appendChild(header)
+content.appendChild(body)
 
 function changeTabHandler() {
     let tabs = document.querySelectorAll('.links > *');
